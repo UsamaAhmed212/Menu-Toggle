@@ -1,12 +1,9 @@
-.toggle-content {
-    display: none;
-    background-color: antiquewhite;
-    height: 0;
+.el {
+    transition: max-height 0.5s;
     overflow: hidden;
-    transition: height 350ms ease-in-out;
-}
-
-.toggle-content.is-visible {
-    display: block;
-    height: auto;
-}
+    max-height: 0;
+  }
+  .trigger:hover > .el {
+    max-height: var(--max-height);
+  }
+  
