@@ -1,15 +1,55 @@
-.wrapper {
-    width: 100px;
-    height: auto;
-    overflow: hidden;
-}
-button,.wrapper {
-      display: block;
-      margin: 20px auto;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: segoe ui, helvetica neue, helvetica, arial, sans-serif;
+    line-height: 1;
   }
-  .div {
-    margin-top: 20px;
-    background:#98bf21;
-    height:100%;
-    width:100%;
+  
+  body {
+    font-size: 16px;
+  }
+  
+  .header {
+    background: #ff8330;
+    width: 500px;
+    margin: 50px auto;
+  }
+  
+  .header .top {
+    overflow: hidden;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header .top .navLink {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-size: 130%;
+    float: left;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header .nav {
+    overflow: hidden;
+    height: 0; 
+  }
+  
+  .header .nav ul {
+    padding: 10px 0px 10px 0px;
+  }
+  
+  .header .nav ul li a {
+    padding: 10px;
+    color: #fff;
+    font-size: 90%;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+  }
+  
+  .header .nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.1);
   }
