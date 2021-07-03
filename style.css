@@ -1,0 +1,12 @@
+.toggle-content {
+    display: none;
+    background-color: antiquewhite;
+    height: 0;
+    overflow: hidden;
+    transition: height 350ms ease-in-out;
+}
+
+.toggle-content.is-visible {
+    display: block;
+    height: auto;
+}
