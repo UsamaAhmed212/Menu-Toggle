@@ -1,9 +1,15 @@
-.el {
-    transition: max-height 0.5s;
+.wrapper {
+    width: 100px;
+    height: auto;
     overflow: hidden;
-    max-height: 0;
+}
+button,.wrapper {
+      display: block;
+      margin: 20px auto;
   }
-  .trigger:hover > .el {
-    max-height: var(--max-height);
+  .div {
+    margin-top: 20px;
+    background:#98bf21;
+    height:100%;
+    width:100%;
   }
-  
