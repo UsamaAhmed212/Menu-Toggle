@@ -53,3 +53,42 @@
   .header .nav ul li a:hover {
     background: rgba(0, 0, 0, 0.1);
   }
+
+/* custom css */
+.sub-menu {
+  height: 0;
+  overflow-y: hidden;
+}
+
+
+.header .nav ul.sub-menu {
+  padding: 0;
+  padding-left: 30px;
+}
+
+
+
+
+
+.header .nav ul li {
+  position: relative;
+}
+
+.sub-toggle {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 14px 20px;
+}
+
+.sub-toggle svg {
+  fill: #95979d;
+  transform: rotate(90deg);
+  cursor: pointer;
+  transition: .2s;
+}
+.sub-toggle.open svg {
+  transform: rotate(-90deg);
+}
